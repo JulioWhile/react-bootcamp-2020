@@ -1,17 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
-import './NotFound.styles.css';
-
-function NotFoundPage() {
+export const NotFound = () => {
   return (
-    <section className="not-found">
-      <Link to="/" className="home-link">
-        home
-      </Link>
-      <img src="404.gif" alt="page not found" />
-    </section>
+    <div>
+      <h1>Not fOUND</h1>
+    </div>
   );
-}
-
-export default NotFoundPage;
+};
